@@ -147,3 +147,42 @@ main .container {
   font-size: 0.8rem;
   text-decoration: line-through;
 }
+
+/*FOOTER*/
+
+.page-footer {
+  background-color: #1a1a1a;
+  color: white;
+
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.page-footer .row {
+  align-items: center;
+  min-height: 100px;
+  justify-content: space-between;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer-title {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+.footer-links {
+  padding-top: 10px;
+  font-weight: 400;
+}
+.footer-info {
+  font-size: 1rem;
+}
+.footer-icons i {
+  margin-left: 5px;
+  font-size: 20px;
+}
+.footer-icons {
+  padding-top: 10px;
+}
